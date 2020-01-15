@@ -1,0 +1,6 @@
+extends ../layout
+
+block content
+    
+  form(action="/books/" + book.id + "/edit", method="post" onsubmit="return confirm('Are you sure you want to make these changes?');")
+    include form

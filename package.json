@@ -1,0 +1,32 @@
+{
+  "name": "javascript-project-8",
+  "version": "1.0.0",
+  "description": "SQL Library Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeLopez3092/javascript-project-8.git"
+  },
+  "author": "Jorge Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorgeLopez3092/javascript-project-8/issues"
+  },
+  "homepage": "https://github.com/JorgeLopez3092/javascript-project-8#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.4",
+    "sequelize": "^5.21.3",
+    "sequelize-cli": "^5.5.1",
+    "sqlite3": "^4.1.1"
+  }
+}
