@@ -50,16 +50,6 @@ router.get("/:id/edit", asyncHandler(async (req, res) => {
   }
 }));
 
-/* GET individual book. */
-// router.get("/:id", asyncHandler(async (req, res) => {
-//     const book = await Book.findByPk(req.params.id);
-//     if(book) {
-//     res.render("books/show", { book, title: book.title }); 
-//     } else {
-//       res.sendStatus(404);
-//     }
-//   }));
-
 /* Update an book. */
 router.post('/:id/edit', asyncHandler(async (req, res) => {
   let book;
